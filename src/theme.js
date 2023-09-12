@@ -3,6 +3,7 @@ export const theme = {
     white: "#FFFFFF",
     whiteLilac: "#FBFBFE",
     iron: "#D1D5DA",
+    ironBright: "#D1D5DA4D",
     mineShaft: "#252525",
     scienceBlue: "#0366D6",
     dodgerBlue: "#2188FF",
