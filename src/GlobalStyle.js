@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: ${({ theme }) => theme.color.whiteLilac};
+    background-color: ${({ theme }) => theme.primary.background};
     font-family: 'Inter', sans-serif;
     word-break: break-word;
     overflow-y: scroll;
