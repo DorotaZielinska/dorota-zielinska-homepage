@@ -27,7 +27,7 @@ export const PortfolioHeader = styled.h2`
   line-height: normal;
   letter-spacing: 1.5px;
   margin-top: 12px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.header.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
@@ -41,6 +41,7 @@ export const PortfolioParagraph = styled.p`
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 1px;
+  color: ${({ theme }) => theme.header.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 17px;
