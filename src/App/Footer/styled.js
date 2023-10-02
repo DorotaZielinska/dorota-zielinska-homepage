@@ -7,7 +7,7 @@ export const FooterContainer = styled.div`
   margin-bottom: 109px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
-    margin: 0 16px 30px 16px;
+    margin: 0 0 31px 0;
   }
 `;
 
@@ -16,11 +16,16 @@ export const FooterHeader = styled.h3`
   font-weight: 700;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.primary.text};
+  margin-top: 120px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
+    margin-top: 48px;
+  }
 `;
 
 export const FooterButton = styled.a`
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.header.text};
   font-family: Inter;
   font-size: 32px;
   font-weight: 900;
@@ -36,12 +41,12 @@ export const FooterButton = styled.a`
 
   &:hover {
     transition: 0.3s ease;
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.svg.hover};
   }
 `;
 
 export const FooterText = styled.p`
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.header.text};
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
@@ -73,7 +78,7 @@ export const IconFooterGitHub = styled(IconGitHub)`
 export const IconLinkedIn = styled(LinkedInIcon)`
   width: 48px;
   height: 48px;
-
+ 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 32px;
     height: 32px;
@@ -81,8 +86,9 @@ export const IconLinkedIn = styled(LinkedInIcon)`
 `;
 export const FooterLink = styled.a`
   cursor: pointer;
-
+  fill: ${({ theme }) => theme.svg.fill};
   &:hover {
     transition: 0.3s ease;
+    fill: ${({ theme }) => theme.svg.hover};
   }
 `;
