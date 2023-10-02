@@ -3,7 +3,7 @@ import { ReactComponent as emailIcon } from "./emailIcon.svg";
 
 export const InfoWrapper = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
-    margin: 13px 29px 48px 16px;
+    margin: 13px 29px 48px 0;
   }
 `;
 export const MiniTitle = styled.p`
@@ -11,7 +11,7 @@ export const MiniTitle = styled.p`
   font-weight: 700;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.primary.text};
   margin-bottom: 12px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}) {
@@ -24,7 +24,7 @@ export const InfoTitle = styled.h1`
   font-weight: 900;
   letter-spacing: 1.9px;
   margin-bottom: 35px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.header.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}) {
     font-size: 22px;
@@ -36,8 +36,8 @@ export const InfoTitle = styled.h1`
 export const InfoDescription = styled.p`
   font-size: 20px;
   line-height: 1.4;
-
   margin-bottom: 32px;
+  color: ${({ theme }) => theme.primary.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}) {
     font-size: 17px;
