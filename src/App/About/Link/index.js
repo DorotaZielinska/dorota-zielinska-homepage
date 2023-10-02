@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default styled.a`
-  background-color: ${({ theme }) => theme.color.scienceBlue};
+  background-color: ${({ theme }) => theme.primaryBlue.background};
   padding: 12px 16px;
   font-size: 20px;
   display: inline-flex;
@@ -10,7 +10,7 @@ export default styled.a`
   gap: 16px;
   border-radius: 4px;
   border: 1px solid rgba(209, 213, 218, 0.3);
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.white.text};
   cursor: pointer;
   text-decoration: none;
   transition: 0.3s linear;
