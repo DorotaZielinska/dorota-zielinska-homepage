@@ -16,7 +16,7 @@ export const LoaderParagraph = styled.p`
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.header.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     margin-top: 16px;
