@@ -4,13 +4,9 @@ import { ReactComponent as EllipseIcon } from "./ellipseIcon.svg";
 export const SkillsContainer = styled.div`
   max-width: 1216px;
   border-radius: 4px;
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.section.background};
   box-shadow: 0px 16px 58px 0px rgba(9, 10, 51, 0.03);
   margin-bottom: 72px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
-    margin: 14px;
-  }
 `;
 
 export const SkillsHeader = styled.h2`
@@ -18,8 +14,8 @@ export const SkillsHeader = styled.h2`
   font-weight: 900;
   letter-spacing: 1.5px;
   padding: 32px;
-  color: ${({ theme }) => theme.color.mineShaft};
-  border-bottom: 1px solid ${({ theme }) => theme.color.ironBright};
+  color: ${({ theme }) => theme.header.text};
+  border-bottom: 1px solid ${({ theme }) => theme.divider.background};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
