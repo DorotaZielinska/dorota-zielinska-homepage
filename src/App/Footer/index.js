@@ -1,4 +1,4 @@
-import { email, gitHub } from "../Contact/personalContact";
+import { email, gitHub, linkedin } from "../Contact/personalContact";
 import {
   FooterButton,
   FooterContainer,
@@ -30,7 +30,9 @@ export const Footer = () => {
         <FooterLink href={gitHub} rel="noopener noreferrer" target="_blank">
           <IconFooterGitHub />
         </FooterLink>
-        <IconLinkedIn />
+        <FooterLink href={linkedin} rel="noopener noreferrer" target="_blank">
+          <IconLinkedIn />
+        </FooterLink>
       </IconWrapper>
     </FooterContainer>
   );
