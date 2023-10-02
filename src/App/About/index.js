@@ -4,11 +4,13 @@ import { Image } from "./Image";
 import { Info } from "./Info";
 import picture from "./Image/zdjecieDZ1.png";
 
-export const About = () => {
-  return (
-    <AboutWrapper>
-      <Image src={picture} />
-      <Info />
+export const About = () => (
+  <AboutWrapper>
+      <Image src={picture} alt="my profile picture" />
+      <Info /> 
     </AboutWrapper>
-  );
-};
+); 
+  
+  
+
+
