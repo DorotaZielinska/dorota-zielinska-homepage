@@ -15,13 +15,18 @@ export const SkillsHeader = styled.h2`
   letter-spacing: 1.5px;
   padding: 32px;
   color: ${({ theme }) => theme.header.text};
-  border-bottom: 1px solid ${({ theme }) => theme.divider.background};
-
+ 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 18px;
     letter-spacing: 0.9px;
     padding: 16px;
   }
+`;
+export const Divider = styled.div`
+  max-width: 1151px;
+  height: 1px;
+  margin: auto;
+  background: ${({ theme }) => theme.divider.background};
 `;
 
 export const SkillsList = styled.ul`

@@ -1,4 +1,5 @@
 import {
+  Divider,
   EllipseIconItem,
   SkillsContainer,
   SkillsHeader,
@@ -10,6 +11,7 @@ export const SectionSkills = ({ title, content }) => {
   return (
     <SkillsContainer>
       <SkillsHeader>{title}</SkillsHeader>
+      <Divider />
       <SkillsList>
         {content.map((skills) => (
           <SkillsItem key={skills}>
