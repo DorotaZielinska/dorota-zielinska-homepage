@@ -1,12 +1,23 @@
 {
   "files": {
-    "main.js": "/dorota-zielinska-homepage/static/js/main.8a4b883e.js",
+    "main.js": "/dorota-zielinska-homepage/static/js/main.695c1ec4.js",
     "static/js/787.719c758c.chunk.js": "/dorota-zielinska-homepage/static/js/787.719c758c.chunk.js",
+    "static/media/zdjecieDZ1.png": "/dorota-zielinska-homepage/static/media/zdjecieDZ1.5728ae2862b8fd2add9a.png",
+    "static/media/sunIcon.svg": "/dorota-zielinska-homepage/static/media/sunIcon.c0d57c971f054c63deb2a0db794db98f.svg",
+    "static/media/footerGitHubIcon.svg": "/dorota-zielinska-homepage/static/media/footerGitHubIcon.6e2b6f89464dd53aada15e4b689a6f85.svg",
     "index.html": "/dorota-zielinska-homepage/index.html",
-    "main.8a4b883e.js.map": "/dorota-zielinska-homepage/static/js/main.8a4b883e.js.map",
+    "static/media/gitHub.svg": "/dorota-zielinska-homepage/static/media/gitHub.ffed6cd032875c5257a5c15bd71c9bbc.svg",
+    "static/media/warning.svg": "/dorota-zielinska-homepage/static/media/warning.89b8aa536da0ec19ff4eed542277b576.svg",
+    "static/media/linkedIcon.svg": "/dorota-zielinska-homepage/static/media/linkedIcon.2e9c7f4b42f9fd30580feb00ab9fceba.svg",
+    "static/media/emailIcon.svg": "/dorota-zielinska-homepage/static/media/emailIcon.a6c4c148ef8da9806503342381645e18.svg",
+    "static/media/backgroundIcon.svg": "/dorota-zielinska-homepage/static/media/backgroundIcon.c15ba83044a208fa806295d841c4897b.svg",
+    "static/media/loader.svg": "/dorota-zielinska-homepage/static/media/loader.13320df6b6683268c3688fdbf8c86c05.svg",
+    "static/media/toggleIcon.svg": "/dorota-zielinska-homepage/static/media/toggleIcon.a11d0e1a66701095a91ad5c93e45d267.svg",
+    "static/media/ellipseIcon.svg": "/dorota-zielinska-homepage/static/media/ellipseIcon.39d9b5a9096f7b9d0c15bb5203215bd9.svg",
+    "main.695c1ec4.js.map": "/dorota-zielinska-homepage/static/js/main.695c1ec4.js.map",
     "787.719c758c.chunk.js.map": "/dorota-zielinska-homepage/static/js/787.719c758c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8a4b883e.js"
+    "static/js/main.695c1ec4.js"
   ]
 }
