@@ -1,4 +1,5 @@
 # Dorota Zielinska Personal Homepage
+![Dorota Zielinska Personal Homepage](public/screenShotPersonalHomepage.png)
 
 ## Demo
 
