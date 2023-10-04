@@ -13,7 +13,8 @@ export const SkillsHeader = styled.h2`
   font-size: 30px;
   font-weight: 900;
   letter-spacing: 1.5px;
-  padding: 32px;
+  padding: 32px 0 15px 32px; 
+  margin-bottom: 0;
   color: ${({ theme }) => theme.header.text};
  
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
