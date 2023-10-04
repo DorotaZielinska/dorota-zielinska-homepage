@@ -48,6 +48,8 @@ export const SkillsItem = styled.li`
   display: flex;
   align-items: center;
   list-style-type: none;
+  color: ${({ theme }) => theme.header.text};
+ 
 `;
 
 export const EllipseIconItem = styled(EllipseIcon)`
