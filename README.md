@@ -2,7 +2,7 @@
 
 ## Demo
 
-[See Personal Homepage Dorota Zielinska]()
+[See Personal Homepage Dorota Zielinska](https://dorotazielinska.github.io/dorota-zielinska-homepage/)
 
 ## Technologies:
 
