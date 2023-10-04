@@ -12,7 +12,6 @@ import { Loader } from "../Loader";
 
 export const Projects = () => {
   const projects = useSelector(selectProjects);
-  console.log("projects", projects);
   const status = useSelector(selectStatus);
   const dispatch = useDispatch();
 
