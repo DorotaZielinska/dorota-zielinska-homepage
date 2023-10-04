@@ -1,5 +1,6 @@
 import React from "react";
 import { ErrorHeader, ErrorIcon, ErrorParagraph, ErrorWrapper } from "./styled";
+import Link from "../../About/Link";
 
 export const Error = () => (
   <ErrorWrapper>
@@ -10,6 +11,6 @@ export const Error = () => (
       <br />
       You can check them directly on Github.
     </ErrorParagraph>
-    {/* <StyledLink>Go to Github</StyledLink> */}
+    <Link>Go to Github</Link>
   </ErrorWrapper>
 );

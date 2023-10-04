@@ -5,7 +5,6 @@ export const ErrorWrapper = styled.div`
   border: 0px solid ${({ theme }) => theme.color.iron};
   display: grid;
   grid-template-columns: 1fr;
-  /* justify-content: center; */
   text-align: center; 
 `;
 export const ErrorIcon = styled(Warning)`
