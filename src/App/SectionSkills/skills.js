@@ -27,10 +27,6 @@ export const skills = [
   export const toLearn = [
     "To improve level of my skills",
     "React Context",
-    "Vanilla JS",
     "Node.js",
     "TypeScript",
-    "JS classes",
-    "CSS",
-    
   ];
