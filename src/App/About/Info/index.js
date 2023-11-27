@@ -14,13 +14,11 @@ export const Info = () => (
     <MiniTitle>This is</MiniTitle>
     <InfoTitle>Dorota Zielińska</InfoTitle>
     <InfoDescription>
-      I was looking for something creative to do and I have found it in
-      programming.
-      <br /> So on that way I have start to develop my passion and knowledge
-      about Frontend with React.
-      <br /> I'a highly motivated Frontend Developer currently looking for new
-      job opportunities to increase my experience, explore new technologies to
-      improve my skills and become a better programmer.
+      I was searching for a creative outlet, and I discovered it through
+      programming. This is where my journey into Frontend development with React
+      began. I am a highly motivated Frontend Developer, actively seeking new
+      job opportunities to further enhance my experience, delve into emerging
+      technologies, refine my skills, and evolve as a proficient programmer.
     </InfoDescription>
     <Link href={`mailto:${email}`} title={email} rel="noopener noreferrer">
       <MessageIcon />
